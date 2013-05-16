@@ -52,7 +52,7 @@ def parse(directory, filename, rng=(1, 4)):
             pass
 
     with open(filename, 'w') as f:
-        f.write('"ko","desc"\n')
+        f.write('"ko","kodesc"\n')
         for t, e in d.items():
             s = '"%s","%s"\n' % (t, e)
             f.write(s.encode('utf-8'))
