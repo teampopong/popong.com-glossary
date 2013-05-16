@@ -20,5 +20,5 @@ def main(target):
     eval('%s.crawl("%s", "%s", %s)' % (target, baseurl, directory, rng))
     eval('%s.parse("%s", "%s", %s)' % (target, directory, filename, rng))
 
-main('nas')
 main('likms')
+main('nas')

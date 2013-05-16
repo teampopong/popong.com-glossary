@@ -2,6 +2,10 @@
 
 Get and merge data for [POPONG Glossary](http://popong.com/glossary).
 
+## Run
+
+    python main.py
+
 ## Sources
 
 ### likms
