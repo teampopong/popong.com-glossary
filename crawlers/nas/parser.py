@@ -19,18 +19,17 @@ def get_text(inf, x):
     with open(inf, 'r') as f:
         p = get_webpage(f)
         e = get_elements(p, x)
-    return ['"%s","%s","",""' % (i[1], i[3].strip()) for i in e[1:]]
+    return ['"%s","%s"' % (i[1], i[3].strip()) for i in e[1:]]
 
-if __name__=='__main__':
-
-    directory = 'html'
-    npage = 126
-    outf = 'data.csv'
+def parse(directory, filename, rng=(1, 126)):
     x = '//table[@class="cboard"]//tr'
 
-    with open(outf, 'a') as f:
-        for i in range(1, npage+1):
+    with open(filename, 'wa') as f:
+        f.write('"ko","en"\n')
+        for i in range(rng[0], rng[1]+1):
             inf = '%s/%s.html' % (directory, i)
             f.write('\n'.join(get_text(inf, x)).encode('utf-8'))
             f.write('\n')
-            print '%s/%s' % (i, npage)
+            print 'parsed %s/%s' % (i, rng[1])
+
+    print 'Results written to ' + filename
