@@ -7,7 +7,7 @@ from crawlers import likms
 from crawlers import nas
 from settings import BASEURL, DIR, RANGE
 
-def main(target):
+def get(target):
 
     directory = '%s/%s' % (DIR['html'], target)
     baseurl = BASEURL[target]
@@ -20,5 +20,5 @@ def main(target):
     eval('%s.crawl("%s", "%s", %s)' % (target, baseurl, directory, rng))
     eval('%s.parse("%s", "%s", %s)' % (target, directory, filename, rng))
 
-main('likms')
-main('nas')
+get('likms')
+get('nas')
