@@ -535,7 +535,7 @@ YWCA(기독교여자청년회의),,Young Women's Christian Association,,,sources
 보훈특위,,Special Committee on Veterans Affairs,,,sources/nas.csv
 복수비자,,Multiple Visa,,,sources/nas.csv
 복수여권,,Multiple Passport,,,sources/nas.csv
-본회의,,Plenary Session / The Plenary,,asdf,sources/popong.csv
+본회의,,Plenary Session / The Plenary,,,sources/popong.csv
 본회의보고,,Report to the Plenary Session,,,sources/nas.csv
 본회의장,,The Plenary Chamber / The Main Chamber,,,sources/nas.csv
 부결,,Rejection,,의결정족수에 미달하는 의결의 형태이다.,sources/likms.csv
