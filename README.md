@@ -4,7 +4,8 @@ Get and merge data for [POPONG Glossary](http://popong.com/glossary).
 
 ## Run
 
-    python main.py
+    python get.py       # To get source data files
+    python merge.py     # To create glossary.csv
 
 ## Sources
 

@@ -20,5 +20,6 @@ def get(target):
     eval('%s.crawl("%s", "%s", %s)' % (target, baseurl, directory, rng))
     eval('%s.parse("%s", "%s", %s)' % (target, directory, filename, rng))
 
-get('likms')
-get('nas')
+if __name__=='__main__':
+    get('likms')
+    get('nas')
