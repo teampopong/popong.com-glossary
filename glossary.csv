@@ -209,15 +209,13 @@ YWCA(기독교여자청년회의),,Young Women's Christian Association,,,sources
 관세청,,Korea Customs Service,,,sources/nas.csv
 관용여권,,Official Passport,,,sources/nas.csv
 광역시,,Metropolitan City,,,sources/nas.csv
-광역의원비례대표선거,,,,,sources/popong.csv
 광주과학기술원(GIST),,Gwangju Institute of Science & Technology,,,sources/nas.csv
 교섭단체,,Negotiation Group,,,sources/nas.csv
 교섭단체대표의원,,Floor Leader of Negotiation Group / The Representative Assemblyman of Negotiation Group,,,sources/nas.csv
 교섭단체정책연구위원,,Policy Researcher of Negotiation Group,,,sources/nas.csv
 교수,,Professor(s),,,sources/nas.csv
-교육감선거,,,,,sources/popong.csv
+교육문화체육관광위원회,,,,http://educulture.na.go.kr,sources/committee.csv
 교육위원회,,Education Committee,,,sources/nas.csv
-교육의원선거,,,,,sources/popong.csv
 교육인적자원부,,Ministry of Education and Human Resources Development,,,sources/nas.csv
 교육혁신위원회,,Presidential Committee on Education Innovation,,,sources/nas.csv
 교육훈련과,,Education & Training Division,,,sources/nas.csv
@@ -227,8 +225,6 @@ YWCA(기독교여자청년회의),,Young Women's Christian Association,,,sources
 교환각서,,Exchange of Notes,,,sources/nas.csv
 구,,Gu,,,sources/nas.csv
 구두동의,,Verbal / Oral Motion,,,sources/nas.csv
-구시군의장선거,,,,,sources/popong.csv
-구시군의회의원선거,,,,,sources/popong.csv
 구주의회(The European Parliament : EP) 소속 정치그룹,,유럽국민당그룹 : Group of the European People's Party (Christian Democrats) and European Democrats (PPE-DE),,,sources/nas.csv
 구주협의회확대의원총회,,Enlarged Parliamentary Assembly of the Council of Europe,,,sources/nas.csv
 구청장(비자치구)읍장면장동장이장,,"Head of Gu,Eup,Myon, Dong,Ri",,,sources/nas.csv
@@ -257,7 +253,7 @@ YWCA(기독교여자청년회의),,Young Women's Christian Association,,,sources
 국민투표,,Referendum,,,sources/nas.csv
 국방보좌관,,Advisor to the President for National Defense,,,sources/nas.csv
 국방부,,Ministry of National Defense,,,sources/nas.csv
-국방위원회,,National Defense Committee,,,sources/nas.csv
+국방위원회,,National Defense Committee,,http://defense.na.go.kr,sources/committee.csv
 국사편찬위원회,,National Institute of Korea History,,,sources/nas.csv
 국세청,,National Tax Service,,,sources/nas.csv
 국장,,Director General (of Bureau),,,sources/nas.csv
@@ -276,6 +272,7 @@ YWCA(기독교여자청년회의),,Young Women's Christian Association,,,sources
 국제협력과,,Inter-Parliamentary Relations Division,,,sources/nas.csv
 국제협력단(KOICA),,Korea International Cooperation Agency,,,sources/nas.csv
 국제회의참석(IPU),,"To participate in the IPU Conference in Washington D.C. from April 14 to 17, 2004",,,sources/nas.csv
+국토교통위원회,,,,http://ltc.na.go.kr,sources/committee.csv
 국토연구원(KRIHS),,Korea Research Institute for Human Settlements,,,sources/nas.csv
 국회,,National Assembly,,,sources/nas.csv
 국회개혁특위,,Special Committee on the National Assembly Reform,,,sources/nas.csv
@@ -292,7 +289,7 @@ YWCA(기독교여자청년회의),,Young Women's Christian Association,,,sources
 국회에서의증언감정등에관한법률,,"Act Relating to Testimony,？?Appraisal, etc. Before the National Assembly",,,sources/nas.csv
 국회예산정책처,,National Assembly Budget Office,http://korea.nabo.go.kr/,http://www.nabo.go.kr/,sources/popong.csv
 국회예산정책처법,,National Assembly Budget Office Act,,,sources/nas.csv
-국회운영위원회,,House Steering Committee,,,sources/nas.csv
+국회운영위원회,,House Steering Committee,,http://steering.na.go.kr,sources/committee.csv
 국회의사당,,National Assembly Building,,,sources/nas.csv
 국회의원,,legislator,,,sources/popong.csv
 국회의원당선인,,National Assembly Member-elect / Assemblyman(woman)-elect / Lawmaker-elect / Legislator-elect,,,sources/nas.csv
@@ -333,12 +330,12 @@ YWCA(기독교여자청년회의),,Young Women's Christian Association,,,sources
 기업은행(IBK),,Industrial Bank of Korea,,,sources/nas.csv
 기장,,Pilot,,,sources/nas.csv
 기초과학지원연구원(KBSI),,Korea Basic Science Institute,,,sources/nas.csv
-기초의원비례대표선거,,,,,sources/popong.csv
 기획감사담당관,,"Planning, Budget & Audit Officer",,,sources/nas.csv
 기획관리관,,Deputy Director of NABO for Planning & Management,,,sources/nas.csv
 기획예산담당관,,Planning & Budget Officer,,,sources/nas.csv
 기획예산처,,Ministry of Planning and Budget,,,sources/nas.csv
 기획재정부,,Ministry of Strategy and Finance,http://english.mosf.go.kr/,http://www.mosf.go.kr/,sources/popong.csv
+기획재정위원회,,,,http://finance.na.go.kr,sources/committee.csv
 기획조정실,,Planning and Coordination Office,,,sources/nas.csv
 기획편성담당관,,Broadcasting Programming Officer,,,sources/nas.csv
 기획협력팀,,Planning & Cooperation Team,,,sources/nas.csv
@@ -359,6 +356,7 @@ YWCA(기독교여자청년회의),,Young Women's Christian Association,,,sources
 노인표,,Senior Citizens' Votes,,,sources/nas.csv
 노조표,,Labor Votes,,,sources/nas.csv
 농림부,,Ministry of Agriculture & Forestry,,,sources/nas.csv
+농림축산식품해양수산위원회,,,,http://agri.na.go.kr,sources/committee.csv
 농림해양수산위원회,,"Agriculture, Forestry, Maritime Affairs and Fisheries Committee",,,sources/nas.csv
 농수산물유통공사(AFMC),,Agricultural & Fishery Marketing Corporation,,,sources/nas.csv
 농어업농어촌특별대책위원회,,"Presidential Commission on？?Agriculture, Fishery and Rural Policies",,,sources/nas.csv
@@ -479,6 +477,7 @@ YWCA(기독교여자청년회의),,Young Women's Christian Association,,,sources
 미국연방의회의 위원회 - 상원(Senate),,"농업위원회 : Agriculture, Nutrition and Forestry Committee",,,sources/nas.csv
 미국연방의회의 위원회 - 하 원 (House of Representatives),,농업위원회 : Committee on Agriculture,,,sources/nas.csv
 미래전략특위,,Special Committee on Future Strategy,,,sources/nas.csv
+미래창조과학방송통신위원회,,,,http://future.na.go.kr,sources/committee.csv
 민권당(CRP),,Civil Rights Party,,,sources/nas.csv
 민사부,,Civil Panels,,,sources/nas.csv
 민원제안비서관,,Ombudsman Secretary to the President?,,,sources/nas.csv
@@ -515,7 +514,7 @@ YWCA(기독교여자청년회의),,Young Women's Christian Association,,,sources
 법원도서관,,Supreme Court Library,,,sources/nas.csv
 법원행정처,,Ministry of Court Administration,,,sources/nas.csv
 법제관,,Legislative Counseling Officer,,,sources/nas.csv
-법제사법위원회,,Legislation and Judiciary Committee,,,sources/nas.csv
+법제사법위원회,,Legislation and Judiciary Committee,,http://legislation.na.go.kr,sources/committee.csv
 법제실,,Legislative Counseling Office,,,sources/nas.csv
 법제심의관,,Legislative Counsel,,,sources/nas.csv
 법제처,,Ministry of Legislation,,,sources/nas.csv
@@ -525,7 +524,7 @@ YWCA(기독교여자청년회의),,Young Women's Christian Association,,,sources
 별정직,,Excepted Service / Extraordinary Civil Service,,,sources/nas.csv
 병무청,,Military Manpower Administration,,,sources/nas.csv
 보건복지부,,Ministry of Health & Welfare,,,sources/nas.csv
-보건복지위원회,,Health and Welfare Committee,,,sources/nas.csv
+보건복지위원회,,Health and Welfare Committee,,http://health.na.go.kr,sources/committee.csv
 보궐선거,,by-election,,,sources/popong.csv
 보안검색,,Security Check,,,sources/nas.csv
 보좌관,,Chief of Staff / Chief Secretary / Administrative Assistant / Senior Secretary (Assistant / Counselor / Advisor),,,sources/nas.csv
@@ -535,7 +534,7 @@ YWCA(기독교여자청년회의),,Young Women's Christian Association,,,sources
 보훈특위,,Special Committee on Veterans Affairs,,,sources/nas.csv
 복수비자,,Multiple Visa,,,sources/nas.csv
 복수여권,,Multiple Passport,,,sources/nas.csv
-본회의,,Plenary Session / The Plenary,,,sources/popong.csv
+본회의,,Plenary Session / The Plenary,,,sources/nas.csv
 본회의보고,,Report to the Plenary Session,,,sources/nas.csv
 본회의장,,The Plenary Chamber / The Main Chamber,,,sources/nas.csv
 부결,,Rejection,,의결정족수에 미달하는 의결의 형태이다.,sources/likms.csv
@@ -601,12 +600,13 @@ YWCA(기독교여자청년회의),,Young Women's Christian Association,,,sources
 산업인력관리공단(HRDKorea),,Human Resources Development Service of Korea,,,sources/nas.csv
 산업자원부,,"Ministry of Commerce, Industry and Energy",,,sources/nas.csv
 산업자원위원회,,"Commerce, Industry and Energy Committee",,,sources/nas.csv
+산업통상자원위원회,,,,http://industry.na.go.kr,sources/committee.csv
 산회,,Adjournment,,,sources/nas.csv
 상설특위,,Permanent Special Committees,,,sources/nas.csv
 상임운영위,,Standing Steering Committee,,,sources/nas.csv
 상임위원,,Standing Committee Member,,,sources/nas.csv
 상임위원장,,Chairman of the Standing Committee,,,sources/nas.csv
-상임위원회,,Standing Committee,,,sources/popong.csv
+상임위원회,常任委員會,standing committee,,,sources/popong.csv
 상임이사국,,Permanent Member (PM),,,sources/nas.csv
 상정,,Presentation / Putting Bill on the Agenda,,,sources/nas.csv
 새정치국민회의(NCNP),,National Congress for New Politics,,,sources/nas.csv
@@ -677,8 +677,6 @@ YWCA(기독교여자청년회의),,Young Women's Christian Association,,,sources
 시(도)지부장,,Chairman of the Regional Party Chapter,,,sources/nas.csv
 시·군법원,,Municipal Court(s),,,sources/nas.csv
 시군법원판사,,Municipal Judge,,,sources/nas.csv
-시도의회의원선거,,,,,sources/popong.csv
-시도지사선거,,,,,sources/popong.csv
 시민사회수석,,Senior Secretary to the President for Civil Society,,,sources/nas.csv
 시설관리과,,Management & Construction Division,,,sources/nas.csv
 시설심의관,,Maintenance Counsel,,,sources/nas.csv
@@ -708,6 +706,7 @@ YWCA(기독교여자청년회의),,Young Women's Christian Association,,,sources
 아일랜드 의회 관련 용어,,아일랜드(Ireland)의회 : Parliament,,,sources/nas.csv
 아태민주지도자회의,,Forum of Democratic Leaders in the Asia-Pacific,,,sources/nas.csv
 안건,,Agenda Item,,국회에서 논의대상이 되는 모든 사안을 말하며 의안과 그 밖의 사안을 포함한다.,sources/likms.csv
+안전행정위원회,,,,http://adminhom.na.go.kr,sources/committee.csv
 알제리 의회 관련 용어,,알제리(People's Democratic Republic of Algeria)의회 : Parliament,,,sources/nas.csv
 야당,,Opposition Party,,,sources/nas.csv
 양원제,,Bicameral Legislature / Two-house System,,,sources/nas.csv
@@ -719,6 +718,7 @@ YWCA(기독교여자청년회의),,Young Women's Christian Association,,,sources
 에콰도르(Republic of Ecuador)의회,,National Congress,,,sources/nas.csv
 여객시간표,,Passenger Timetable,,,sources/nas.csv
 여당,,Ruling Party / Government Party,,,sources/nas.csv
+여성가족위원회,,,,http://women.na.go.kr,sources/committee.csv
 여성개발원(KWDI),,Korean Women's Development Institute,,,sources/nas.csv
 여성부,,Ministry of Gender Equality,,,sources/nas.csv
 여성위원회,,Women's Affairs Committee,,,sources/nas.csv
@@ -752,7 +752,7 @@ YWCA(기독교여자청년회의),,Young Women's Christian Association,,,sources
 예비선거,,Preliminary Election / Primary Election / Primaries,,,sources/nas.csv
 예비심사,,Preliminary Examination,,,sources/nas.csv
 예비후보자,,preliminary candidate,,,sources/popong.csv
-예산결산특별위원회,,Special Committee on Budget and Accounts,,,sources/popong.csv
+예산결산특별위원회,,Special Committee on Budget and Accounts,,http://budget.na.go.kr,sources/popong.csv
 예산분석실,,Budget Analysis Office,,,sources/nas.csv
 예산분석심의관,,Budget Analysis Counsel,,,sources/nas.csv
 예산안,,Budget Estimates / Budget Bill,,"'예산안'이란 정부가 일정한 기간 즉, 한 회계연도에 있어서의 국가활동에 수반되는 수입과 지출의 예정적 계획인 예산을 편성하여 국회의 심의·확정을 받기 위하여 제출하는 의안을 말한다. 예산안은 상임위원회 예비심사, 예산결산특별위원회종합심사 및 본회의 의결로써 확정된다.
@@ -766,6 +766,7 @@ YWCA(기독교여자청년회의),,Young Women's Christian Association,,,sources
 외교단장,,Dean of the Diplomatic Corps,,,sources/nas.csv
 외교보좌관,,Advisor to the President for Foreign Affairs,,,sources/nas.csv
 외교통상부,,Ministry of Foreign Affairs and Trade,,,sources/nas.csv
+외교통일위원회,,,,http://uft.na.go.kr,sources/committee.csv
 외국항공사,,Foreign Carrier,,,sources/nas.csv
 요르단 의회 관련 용어,,요르단(Hashemite Kingdom of Jordan)의회 : National Assembly,,,sources/nas.csv
 우루과이 의회 관련 용어,,우루과이(Oriental Republic of Uruguay)의회 : General Assembly,,,sources/nas.csv
@@ -809,7 +810,7 @@ YWCA(기독교여자청년회의),,Young Women's Christian Association,,,sources
 유엔환경계획,,UN Environment Programme (UNEP),,,sources/nas.csv
 유학(오리건대학에서경제학전공),,"To study Economics at the University of Oregon from September 1, 2004 to May 28, 2006",,,sources/nas.csv
 윤리심사,,Ethics Review / Examination on Ethics,,,sources/nas.csv
-윤리특별위원회,,Special Committee on Ethics,,,sources/nas.csv
+윤리특별위원회,,Special Committee on Ethics,,http://moral.na.go.kr,sources/committee.csv
 읍면동리,,"Eup,Myon,Dong,Ri (Sub-district / Village)",,,sources/nas.csv
 의결,,Resolution / Decision,,"합의체의 전체의사를 결정하기 위한 사실상의 의사형성행위로서 그 결과는 가결·부결·동의(同意)·승인(承認)·채택(採擇) 등으로 나타나며, 가결(可決)의 개념으로 사용되는 경우가 많다.",sources/likms.csv
 의결정족수,,Quorum for Voting,,,sources/nas.csv
@@ -956,12 +957,12 @@ YWCA(기독교여자청년회의),,Young Women's Christian Association,,,sources
 정당,,party,,,sources/popong.csv
 정례회의,,Regular Meeting,,,sources/nas.csv
 정리과,,Classification & Cataloging Division,,,sources/nas.csv
-정무위원회,,National Policy Committee,,,sources/nas.csv
+정무위원회,,National Policy Committee,,http://policy.na.go.kr,sources/committee.csv
 정무직,,Political Service,,,sources/nas.csv
 정무팀,,National Policy Team,,,sources/nas.csv
 정보검색,,Information Retrieval,,,sources/nas.csv
 정보과학기술보좌관,,"Advisor to the President for Information,？?SAdvisor to the President for Information,？?Science and Technology",,,sources/nas.csv
-정보위원회,,Intelligence Committee,,,sources/nas.csv
+정보위원회,,Intelligence Committee,,http://intelligence.na.go.kr,sources/committee.csv
 정보자료팀,,Information Services Team,,,sources/nas.csv
 정보통신부,,Ministry of Information & Communication,,,sources/nas.csv
 정보통신정책연구원(KISDI),,Korea Information Strategy Development？ Institute,,,sources/nas.csv
@@ -1103,7 +1104,7 @@ YWCA(기독교여자청년회의),,Young Women's Christian Association,,,sources
 특명전권공사,,Minister E.&P.?(Extraordinary and Plenipotentiary),,,sources/nas.csv
 특명전권대사,,Ambassador E.&P. (Extraordinary and Plenipotentiary),,,sources/nas.csv
 특별시,,Special Metropolitan City,,,sources/nas.csv
-특별위원회,,Special Committee,,,sources/popong.csv
+특별위원회,,special committee,,,sources/popong.csv
 특수경력직공무원,,Public Officials in Non-Career Service,,,sources/nas.csv
 특정직,,Special Service,,,sources/nas.csv
 특허법원,,Patent Court,,,sources/nas.csv
@@ -1245,7 +1246,7 @@ YWCA(기독교여자청년회의),,Young Women's Christian Association,,,sources
 홍보담당관,,Public Relations Officer,,,sources/nas.csv
 홍보수석,,Senior Press Secretary to the President,,,sources/nas.csv
 환경관리공단(EMC),,Environmental Management Corporation,,,sources/nas.csv
-환경노동위원회,,Environment and Labor Committee,,,sources/nas.csv
+환경노동위원회,,Environment and Labor Committee,,http://environment.na.go.kr,sources/committee.csv
 환경부,,Ministry of Environment,,,sources/nas.csv
 환승여객,,Transfer Passenger,,,sources/nas.csv
 환전소,,Money Exchange Counters,,,sources/nas.csv
@@ -1253,7 +1254,7 @@ YWCA(기독교여자청년회의),,Young Women's Christian Association,,,sources
 회기,,Session,,,sources/nas.csv
 회부,,Reference (재회부 Re-referring),,,sources/nas.csv
 회원,,Member,,,sources/nas.csv
-회의록,,minutes,,,sources/popong.csv
+회의록,,minute,,,sources/popong.csv
 회장,,President,,,sources/nas.csv
 후보자,,candidate,,,sources/popong.csv
 후원회,,Political Supporters' Group / Financial Support Association (후원회 행사) Fund Raiser (Event),,,sources/nas.csv
