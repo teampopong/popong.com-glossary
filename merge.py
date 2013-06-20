@@ -27,4 +27,4 @@ if __name__=='__main__':
             to_combine = read_csv(fname, idx='ko')
             data = combine(data, to_combine)
 
-    data.to_csv('glossary.csv')
+    data.to_csv('glossary.csv', header=False)
