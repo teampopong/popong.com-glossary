@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include 'includes/head.html' %}
+  </head>
+  <body>
+    <div class="container">
+      <div id="header">
+        <a id="github-ribbon" href="https://github.com/teampopong/glossary"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></a>
+        <a class="brand" href="{{ url_for('home') }}"><img src="{{ url_for('static', filename='images/logo-popong.png') }}" width="250px" alt="popong logo"></a>
+        <h1 class="inline" style="vertical-align: bottom; font-size: 15pt;">{{ gettext("정치용어집") }}</h1>
+        <a href="https://raw.github.com/teampopong/crawlers/master/glossary/glossary.csv">View raw file</a>
+        <div id="lang" class="pull-right">
+          {% for lang, url in locale_links.items() %}
+          <a href="{{ url }}">{{ lang }}</a>&nbsp;{% if not loop.last %}/{% endif %}
+          {% endfor %}
+        </div>
+      </div>
+      <div id="contents">
+        {% block contents %}
+        {% endblock %}
+      </div>
+      {% include 'includes/footer.html' %}
+    </div>
+    <!-- Le javascript
+        ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src="{{ url_for('static', filename='js/ga.js') }}" type="text/javascript"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap-transition.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/bootstrap-collapse.js') }}"></script>
+    <script>
+        $(document).pjax('a', '#contents');
+    </script>
+   </body>
+</html>

@@ -1,0 +1,3 @@
+[submodule "static/data/crawlers"]
+	path = static/data/crawlers
+	url = https://github.com/teampopong/crawlers.git

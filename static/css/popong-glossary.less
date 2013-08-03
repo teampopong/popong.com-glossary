@@ -1,0 +1,82 @@
+// ----- variables ---------------------------------------------------
+@img_folder: "../images";
+
+// -----  palette ------------------------------------------------
+@link_color     : #08c;
+@hover_color    : #005580;
+@code_color     : #333333;
+
+@popong_orange    : #ee7a40;
+@popong_chick     : #efb940;
+@lucy_pink        : #ee44a1;
+@popong_purple    : #92427a;
+@popong_sky       : #44d0de;
+@home_yellow      : #f7bb26;
+
+// ----- mixins --------------------------------------------------
+.rounded-corners (@radius: 5px) {
+  border-radius: @radius;
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+}
+
+.box-shadow (@alpha: 30%) when (isnumber(@alpha)) {
+  box-shadow: inset 0 0 1px rgba(255, 255, 255, @alpha);
+  -webkit-box-shadow: inset 0 0 1px rgba(255, 255, 255, @alpha);
+  -moz-box-shadow: inset 0 0 1px rgba(255, 255, 255, @alpha);
+}
+
+// ----- layout.html ---------------------------------------------------
+html {
+  background: url(../images/bgr.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  body {
+    background-color: transparent;
+  }
+}
+
+.container {
+    min-width: 700px;
+}
+
+footer {
+  background: @popong_purple;
+  color: white;
+  margin-top: 18px;
+  padding: 15px;
+  position: relative;
+  div {
+    display: inline-block;
+  }
+}
+
+.inline {
+    display: inline-block;
+}
+
+.table-striped tbody tr:nth-child(odd) td {
+    background-color: rgba(249, 249, 249, .7)
+}
+
+#copyright {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+}
+
+// ----- media ---------------------------------------------------
+@media (min-width: 980px) {
+  body > .container {
+    padding-top: 30px !important;
+  }
+}
+
+@media (max-width: 980px) {
+  #github-ribbon {
+    display: none;
+  }
+}
