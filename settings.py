@@ -1,6 +1,8 @@
 #! /usr/bin/python2.7
 # -*- coding: utf-8 -*-
 
+SCRIPT_NAME = '/glossary'
+
 SERVER_SETTINGS = {
     'host': '0.0.0.0',
     'port': 8193,
