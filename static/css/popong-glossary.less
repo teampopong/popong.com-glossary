@@ -1,11 +1,4 @@
-// ----- variables ---------------------------------------------------
-@img_folder: "../images";
-
 // -----  palette ------------------------------------------------
-@link_color     : #08c;
-@hover_color    : #005580;
-@code_color     : #333333;
-
 @popong_orange    : #ee7a40;
 @popong_chick     : #efb940;
 @lucy_pink        : #ee44a1;
@@ -40,6 +33,9 @@ html {
 
 .container {
     min-width: 700px;
+    p {
+        margin-top: 30px;
+    }
 }
 
 footer {
@@ -60,8 +56,14 @@ footer {
     display: inline-block;
 }
 
-.table-striped tbody tr:nth-child(odd) td {
-    background-color: rgba(249, 249, 249, .7)
+.table-striped {
+    background-color: rgba(249, 249, 249, .7);
+
+    tbody {
+        tr:nth-child(odd) td {
+            background-color: rgba(249, 249, 249, .5);
+        }
+    }
 }
 
 #copyright {
