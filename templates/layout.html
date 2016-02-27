@@ -9,15 +9,13 @@
         <a id="github-ribbon" href="https://github.com/teampopong/glossary"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></a>
         <a class="brand" href="{{ url_for('home') }}"><img src="{{ url_for('static', filename='images/logo-popong.png') }}" width="250px" alt="popong logo"></a>
         <h1 class="inline" style="vertical-align: bottom; font-size: 15pt;">{{ gettext("정치용어집") }}</h1>
-        <a href="https://raw.github.com/teampopong/crawlers/master/glossary/glossary.csv">View raw file</a>
-        <div id="lang" class="pull-right">
-          {% for lang, url in locale_links.items() %}
-          <a href="{{ url }}">{{ lang }}</a>&nbsp;{% if not loop.last %}/{% endif %}
-          {% endfor %}
-        </div>
+        {% for lang, url in locale_links.items() %}
+        <a href="{{ url }}">{{ lang }}</a>&nbsp;{% if not loop.last %}/{% endif %}
+        {% endfor %}
       </div>
       <div id="contents">
         <p>{{ gettext('정치 용어가 많이 어렵죠? 영문으로는 어떻게 표현해야되는지 막막하셨죠? 포퐁 정치용어집에서 빠르게 검색해보세요!') }}</p>
+        <a href="https://raw.github.com/teampopong/crawlers/master/glossary/glossary.csv">[View raw file]</a>
         {% block contents %}
         {% endblock %}
       </div>
