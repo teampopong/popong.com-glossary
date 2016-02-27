@@ -5,8 +5,5 @@
 ## Crawlers
 http://github.com/teampopong/crawlers/glossary
 
-## Objective
-TBA
-
 ## License
 Apache 2.0
