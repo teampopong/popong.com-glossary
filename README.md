@@ -4,7 +4,7 @@
 
 ## Crawlers
 
-- http://github.com/teampopong/crawlers/glossary
+- https://github.com/teampopong/crawlers/tree/master/glossary
 
 ## Init
 
